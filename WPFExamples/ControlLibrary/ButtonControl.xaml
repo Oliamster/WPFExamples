@@ -13,12 +13,7 @@
     <Grid>
         <StackPanel>
             <TextBlock Height="50" Text="{Binding ElementName=m_Button, Path=DataContext, Converter={StaticResource objectToStringConverter}}"></TextBlock>
-            <Button Height="100" Background="Red" Name="m_Button" Command="{Binding ElementName=m_ButtonControl, Path=ControlCommand}"></Button>
-       
+            <Button Height="100" Background="Red" Name="m_Button" Command="{Binding ControlCommand, ElementName=m_ButtonControl}"></Button>
         </StackPanel>
     </Grid>
 </UserControl>
-
-<!--<Grid>
-    <Button Name="m_Button" Command="{Binding ControlCommand, ElementName=m_ButtonControl, PresentationTraceSources.TraceLevel=High, Converter={StaticResource objectToStringConverter}}"></Button>
-</Grid>-->
