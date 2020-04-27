@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlLibrary", "ControlLibrary\ControlLibrary.csproj", "{FDCADD8E-3801-458A-9BD7-BC8F521F0748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppDriver", "AppDriver\AppDriver.csproj", "{BCF62884-5472-4722-B195-3E79426FEAB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDCADD8E-3801-458A-9BD7-BC8F521F0748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCADD8E-3801-458A-9BD7-BC8F521F0748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCADD8E-3801-458A-9BD7-BC8F521F0748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCADD8E-3801-458A-9BD7-BC8F521F0748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF62884-5472-4722-B195-3E79426FEAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF62884-5472-4722-B195-3E79426FEAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF62884-5472-4722-B195-3E79426FEAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF62884-5472-4722-B195-3E79426FEAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67597C8E-AA26-4ABE-9909-93A0704515AC}
+	EndGlobalSection
+EndGlobal
