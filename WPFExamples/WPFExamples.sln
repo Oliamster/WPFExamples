@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControlLibrary", "ControlLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppDriver", "AppDriver\AppDriver.csproj", "{BCF62884-5472-4722-B195-3E79426FEAB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingRelativeSource", "BindingRelativeSource\BindingRelativeSource.csproj", "{26582DA1-6D03-45A4-951D-4E960E6A473C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BindingRelativeSource", "BindingRelativeSource\BindingRelativeSource.csproj", "{26582DA1-6D03-45A4-951D-4E960E6A473C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingDPToClrProperty", "BindingDPToClrProperty\BindingDPToClrProperty.csproj", "{3D2A11C5-7986-4114-8578-05DF1EC1F8C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{26582DA1-6D03-45A4-951D-4E960E6A473C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26582DA1-6D03-45A4-951D-4E960E6A473C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26582DA1-6D03-45A4-951D-4E960E6A473C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2A11C5-7986-4114-8578-05DF1EC1F8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2A11C5-7986-4114-8578-05DF1EC1F8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2A11C5-7986-4114-8578-05DF1EC1F8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2A11C5-7986-4114-8578-05DF1EC1F8C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
